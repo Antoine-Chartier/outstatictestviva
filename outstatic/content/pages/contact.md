@@ -1,6 +1,6 @@
 ---
 title: 'Contact'
-status: 'draft'
+status: 'published'
 author:
   name: 'Antoine Chartier'
   picture: 'https://avatars.githubusercontent.com/u/121460528?v=4'
