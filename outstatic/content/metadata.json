@@ -1,6 +1,6 @@
 {
-  "commit": "b0da50523e5bad7bf498baf4e484b3c1e9e59ea5",
-  "generated": "2024-05-24T20:52:46.237Z",
+  "commit": "5354262294ddd23790bf946d60670886a69bae7a",
+  "generated": "2024-05-24T20:55:56.797Z",
   "metadata": [
     {
       "__outstatic": {
@@ -136,6 +136,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "5354262294ddd23790bf946d60670886a69bae7a",
+        "hash": "2802896146",
+        "path": "outstatic/content/pages/contact.md"
+      },
+      "author": {
+        "name": "Antoine Chartier",
+        "picture": "https://avatars.githubusercontent.com/u/121460528?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-24T20:31:38.174Z",
+      "slug": "contact",
+      "status": "draft",
+      "title": "Contact"
     }
   ]
 }
