@@ -1,6 +1,6 @@
 {
-  "commit": "393de9be1927f58fce3da35d86cac6fdb17dc0f5",
-  "generated": "2024-05-25T00:46:44.981Z",
+  "commit": "02c3061f859e99c5de2c3e5c21c421627cbab484",
+  "generated": "2024-05-25T15:38:37.737Z",
   "metadata": [
     {
       "__outstatic": {
@@ -172,6 +172,24 @@
       "slug": "cozy-shack",
       "status": "published",
       "title": "COZY SHACK"
+    },
+    {
+      "__outstatic": {
+        "commit": "02c3061f859e99c5de2c3e5c21c421627cbab484",
+        "hash": "2416930542",
+        "path": "outstatic/content/test/tttt.md"
+      },
+      "author": {
+        "name": "Antoine Chartier",
+        "picture": "https://avatars.githubusercontent.com/u/121460528?v=4"
+      },
+      "collection": "test",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-25T15:14:25.301Z",
+      "slug": "tttt",
+      "status": "draft",
+      "title": "tttt"
     }
   ]
 }
