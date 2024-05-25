@@ -1,6 +1,6 @@
 {
-  "commit": "02c3061f859e99c5de2c3e5c21c421627cbab484",
-  "generated": "2024-05-25T15:38:37.737Z",
+  "commit": "06806171f2c948fd546f14b34324ff5b306187a0",
+  "generated": "2024-05-25T15:39:00.409Z",
   "metadata": [
     {
       "__outstatic": {
@@ -175,8 +175,8 @@
     },
     {
       "__outstatic": {
-        "commit": "02c3061f859e99c5de2c3e5c21c421627cbab484",
-        "hash": "2416930542",
+        "commit": "06806171f2c948fd546f14b34324ff5b306187a0",
+        "hash": "3940797692",
         "path": "outstatic/content/test/tttt.md"
       },
       "author": {
@@ -188,7 +188,7 @@
       "description": "",
       "publishedAt": "2024-05-25T15:14:25.301Z",
       "slug": "tttt",
-      "status": "draft",
+      "status": "published",
       "title": "tttt"
     }
   ]
