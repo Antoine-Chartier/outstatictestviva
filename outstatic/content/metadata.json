@@ -1,6 +1,6 @@
 {
-  "commit": "577cfd15edc596fa04a47452c71f6a190ad6df07",
-  "generated": "2024-05-24T23:48:26.873Z",
+  "commit": "393de9be1927f58fce3da35d86cac6fdb17dc0f5",
+  "generated": "2024-05-25T00:46:44.981Z",
   "metadata": [
     {
       "__outstatic": {
@@ -154,6 +154,24 @@
       "slug": "contact",
       "status": "published",
       "title": "Contact"
+    },
+    {
+      "__outstatic": {
+        "commit": "393de9be1927f58fce3da35d86cac6fdb17dc0f5",
+        "hash": "3937446648",
+        "path": "outstatic/content/listings/cozy-shack.md"
+      },
+      "author": {
+        "name": "Antoine Chartier",
+        "picture": "https://avatars.githubusercontent.com/u/121460528?v=4"
+      },
+      "collection": "listings",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-25T00:21:59.395Z",
+      "slug": "cozy-shack",
+      "status": "published",
+      "title": "COZY SHACK"
     }
   ]
 }
