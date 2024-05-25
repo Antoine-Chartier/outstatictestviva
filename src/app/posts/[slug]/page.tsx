@@ -54,6 +54,8 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
 
 export default async function Post(params: Params) {
   const post = await getData(params)
+
+
   return (
     <Layout>
       <div className="max-w-6xl mx-auto px-5">

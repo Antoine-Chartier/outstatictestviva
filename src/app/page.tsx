@@ -2,9 +2,11 @@ import Layout from '../components/Layout'
 import { load } from 'outstatic/server'
 import ContentGrid from '../components/ContentGrid'
 import markdownToHtml from '../lib/markdownToHtml'
+import ConsoleLog from '@/components/frontend/ConsoleLog'
 
 export default async function Index() {
   const { content, allPosts, allProjects } = await getData()
+
 
   return (
     <Layout>
@@ -31,19 +33,25 @@ export default async function Index() {
           />
         )}
       </div>
+
     </Layout>
   )
 }
 
 async function getData() {
   const db = await load()
+  
+  const pageIndex = await db
+  .find({ collection: 'pages', slug: 'home' }, ['content'])
+  .first()
+  
 
-  const page = await db
-    .find({ collection: 'pages', slug: 'home' }, ['content'])
-    .first()
+  // console.log(pageIndex);
+  const content = await markdownToHtml(pageIndex.content)
 
-  const content = await markdownToHtml(page.content)
 
+
+  
   const allPosts = await db
     .find({ collection: 'posts' }, [
       'title',
