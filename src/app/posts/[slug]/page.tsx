@@ -132,13 +132,14 @@ async function getData({ params }: Params) {
 
 // This function gets called at build time on server-side. It won't be called on client-side.
 // It allows you to fetch data and pre-render the page. This is useful for SEO purposes.
-export async function getStaticPaths() {
+export async function getStaticPaths(): Promise<{paths: {params: {slug: string}}[], fallback: boolean}> {
   const paths = await generateStaticParams();
   return {
     paths,
     fallback: false,
   };
 }
+
 export async function generateStaticParams() {
   const posts = getDocumentSlugs('posts')
   return posts.map((slug) => ({ params: { slug } }))
