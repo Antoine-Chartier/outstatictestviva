@@ -139,9 +139,9 @@ async function getData({ params }: Params) {
 //   };
 // }
 
-export async function generateStaticParams() {
-  const posts = getDocumentSlugs('posts')
-  return posts.map((slug) => ({ slug }))
-}
+// export async function generateStaticParams() {
+//   const posts = getDocumentSlugs('posts')
+//   return posts.map((slug) => ({ slug }))
+// }
 
 
