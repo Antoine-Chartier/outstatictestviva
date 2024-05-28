@@ -8,6 +8,7 @@ import { getDocumentSlugs, load } from 'outstatic/server'
 import DateFormatter from '@/components/DateFormatter'
 import { absoluteUrl } from '@/lib/utils'
 import { notFound } from 'next/navigation'
+import type { GetStaticPaths, GetStaticProps } from 'next'
 
 type Post = {
   tags: { value: string; label: string }[]
