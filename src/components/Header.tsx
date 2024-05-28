@@ -9,7 +9,7 @@ import localImage from "public/images/logos/logo.png";
 const Header = async () => {
 
 const pagesSlug = await generateStaticParams()
-console.log(pagesSlug);
+// console.log(pagesSlug);
 
   return (
     <nav className="layout flex items-center justify-between py-4">
