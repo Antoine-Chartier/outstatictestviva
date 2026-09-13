@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { getDocumentSlugs } from 'outstatic/server'
 import { load } from 'outstatic/server'
 import Image from 'next/image'
-import localImage from "public/images/logos/logo.png";
+
 
 
 
@@ -16,7 +16,7 @@ const pagesSlug = await generateStaticParams()
       <div>
         <Link href="/" className="hover:underline">
       <Image
-        src={localImage}
+        src="images/logos/logo.png"
         alt="Logo"
         width={100}
         height={100}
