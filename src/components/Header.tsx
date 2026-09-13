@@ -2,9 +2,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { load, getDocumentSlugs } from 'outstatic/server'
 
+async function generateStaticParams() {
+  const db = await load()
+  // Ajoutez ici la logique de retour de votre base de données si nécessaire
+  return [] 
+}
+
 const Header = async () => {
   const pagesSlug = await generateStaticParams()
-  
+
   return (
     <nav className="layout flex items-center justify-between py-4">
       <div>
@@ -22,15 +28,4 @@ const Header = async () => {
   )
 }
 
-async function generateStaticParams() {
-  const db = await load()
-  const pages = await db
-    .find({ collection: 'pages', slug: { $ne: 'home' } })
-    .project(['slug'])
-    .toArray()
-
-  return pages.map(({ slug }) => ({ slug }))
-}
-
 export default Header
-
