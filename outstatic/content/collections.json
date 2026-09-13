@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Listings",
+    "slug": "listings",
+    "path": "outstatic/content/listings",
+    "parent": null
+  },
+  {
+    "title": "Pages",
+    "slug": "pages",
+    "path": "outstatic/content/pages",
+    "parent": null
+  },
+  {
+    "title": "Posts",
+    "slug": "posts",
+    "path": "outstatic/content/posts",
+    "parent": null
+  },
+  {
+    "title": "Projects",
+    "slug": "projects",
+    "path": "outstatic/content/projects",
+    "parent": null
+  },
+  {
+    "title": "Test",
+    "slug": "test",
+    "path": "outstatic/content/test",
+    "parent": null
+  }
+]
